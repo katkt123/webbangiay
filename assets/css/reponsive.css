@@ -1,0 +1,155 @@
+
+@media screen and (max-width: 768px) {
+    .header-logo-menu{
+        display: block;
+    }
+    .video{
+        display: none;
+    }
+    .shell-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .pay-chuyenkhoan_img img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .profile-user{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .profile-menu{
+        min-width: 80px;
+    }
+    .my-account-flex{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .profile-user-menu{
+        display: flex;
+        justify-content: space-around;
+    }
+    .profile-user-item a{
+        background-color: rgb(219, 219, 219);
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    .detail-main{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .describe-reviews_total-detail{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .detail-show__image{
+        height: 400px;
+    }
+    .detail-show__slick{
+        height: 400px;
+    }
+    .detail-content{
+        padding: 0;
+    }
+
+    .about-main{
+        flex-direction: column;
+    }
+    .hero-main{
+        flex-direction: column-reverse;
+    }
+    .hero__image-text{
+        font-size: 10rem;
+    }
+    .menu_sub{
+        display: none;
+    }
+}
+@media (max-width:576px) {
+    /* .menu-mobile{
+        display: block;
+    } */
+    .header__action-search{
+        display: none;
+    }
+    .about-main{
+        flex-direction: column;
+    }
+    .hero-main{
+        flex-direction: column-reverse;
+    }
+    .hero__image-text{
+        font-size: 10rem;
+    }
+    .menu_sub{
+        display: none;
+    }
+    .flashsale__list{
+        grid-template-columns: repeat(auto-fit, minmax(130px,1fr));
+    }
+    .card__list{
+        grid-template-columns: repeat(auto-fit ,minmax(130px,1fr));
+        column-gap: 20px;
+        row-gap: 40px;
+    }
+    .title{
+        font-size: 4rem;
+    }
+    .title a{
+        top: 28%;
+    }
+    .flashsale__time-title{
+        color: var(--white-color);
+        font-size: 2rem;
+        margin-right: 1rem;
+    }
+    .footer{
+        /* display: none; */
+    }
+    .footer-content{
+        flex-wrap: wrap;
+    }
+    .footer-item{
+        width: 100%;
+    }
+    .footer-nav{
+        flex-wrap: wrap;
+    }
+    .header__action-search-input{
+        display: none;
+    }
+
+    /* .flashsale__time-end-icon{
+        display: none;
+    } */
+    .hero{
+        padding: 2rem 0;
+    }
+    .flashsale__time-title_end{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .filter{
+        display: none;
+    }
+    .list-shoes{
+        grid-template-columns: repeat(auto-fit ,minmax(130px,1fr));
+    }
+    .show{
+        padding: 0;
+    }
+}
+@media (max-width:500px) {
+    .sort-filter_hidden{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        align-items: start;
+    }
+}
